@@ -2,4 +2,4 @@
 
 family=("Dad" "Mom" "Sister")
 
-echo "The members in the family are: $family"
+echo "The funniest in the family is: $family[2]"
