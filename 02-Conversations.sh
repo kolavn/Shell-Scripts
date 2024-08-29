@@ -3,5 +3,5 @@
 user1=$Ramesh
 user2=$Suresh
 
-echo "$user1: Hi Suresh, How are you?"
-echo "$user2: Hi Ramesh, I am doing alright."
+echo "$user1: Hi $user2, How are you?"
+echo "$user2: Hi $user1, I am doing alright."
