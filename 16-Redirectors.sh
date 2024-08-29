@@ -44,13 +44,16 @@ USAGE(){
     exit 1
 }
 
+echo "Script started executing at : $date"
+
+CHECK_ROOT
+
 if [ $# -eq 0 ]
 then
     USAGE
 fi
 
 
-CHECK_ROOT
 
 for package in $@  #$@ refers to all arguments passed into it
 do
